@@ -1,9 +1,14 @@
 // import Studentcard from "./studentCards"
 // import students from "../student"
-import Counter from "./counter"
+//import Counter from "./counter"
+import Studentdashboard from "./StudentDashboard"
 export default function Maincntaioner(){
     return(
         <>
+        <div className="student-dashboard">
+            <h2>Student Dashboard</h2>
+            <Studentdashboard/>
+        </div>
         
         {/* <h1>STUDENT-DETAILES</h1> //props
          <div className="card">
@@ -18,7 +23,8 @@ export default function Maincntaioner(){
         })}
          </div> */}
         
-        <Counter/>
+        {/* <Counter/> */}
+
         </>
     )
 }

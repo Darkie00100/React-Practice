@@ -7,11 +7,14 @@ export default function Counter(){
     function handeldown(){
         setCount(count-1)
     }
+    // function handelReset(){
+    //     setCount(0)
+    // }
     function reportCount(count){
         if (count>0) {
             return "Positive"
         } else if(count<0) {
-            return "Negitive"        
+            return "Negative"        
         }
         else{
             return "Zero"
@@ -22,7 +25,7 @@ export default function Counter(){
         <h1>count:{count} </h1>
       <button onClick={handelup}> upcount</button>
       <button onClick={handeldown}> down count</button>
-      <h4>{reportCount(count)}</h4>
+      {/* <button onClick={handelReset}>Reset</button> */}<h4>{reportCount(count)}</h4>
         </>
     )
 }
