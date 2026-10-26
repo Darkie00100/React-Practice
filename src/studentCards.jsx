@@ -1,15 +1,19 @@
-export default function Studentcard(props){
+export default function Studentcard(std){
+   function grade(){
+        
+            return "Excellent Grade in Academics"  
+    }
     return(
         <div className="student-container">
             <div className="cards">
-                <h3>Student-Name: {props.studentName} </h3>
-           
-            <h3>Branch: {props.branch} </h3>
-            
-            <h3>Semester: {props.sem} </h3>
-            
-            <h3>CGPA: {props.cgpa} </h3>
+                <h2><u>Student:{std.id}</u></h2>
+                <p>Name:{std.name}</p>
+                <p>Branch{std.branch}</p>
+                <p>Sem:{std.semester}</p>
+                <p>cgpa:{std.cgpa}</p>
+                {std.cgpa>=9.0?grade():""}
             </div>
+                            
         </div>
 
         

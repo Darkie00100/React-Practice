@@ -1,10 +1,20 @@
-.card{
+/* .card{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 15px;
+} */
 
-.cards{
-    border: 1px solid black;
+.abcd{
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px
 }
+.student{
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding-left: 5px;
+    font-size: medium;
 }

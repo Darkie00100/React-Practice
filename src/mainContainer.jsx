@@ -1,14 +1,17 @@
 // import Studentcard from "./studentCards"
 // import students from "../student"
 //import Counter from "./counter"
-import Studentdashboard from "./StudentDashboard"
+//import Studentdashboard from "./StudentDashboard"
+import Studentdet from "./studentdetails"
+
 export default function Maincntaioner(){
     return(
         <>
-        <div className="student-dashboard">
+        <Studentdet/>
+        {/* <div className="student-dashboard">
             <h2>Student Dashboard</h2>
             <Studentdashboard/>
-        </div>
+        </div> */}
         
         {/* <h1>STUDENT-DETAILES</h1> //props
          <div className="card">

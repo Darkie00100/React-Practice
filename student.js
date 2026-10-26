@@ -1,5 +1,5 @@
 const students = [
-  { id: 1, name: "Aarav", branch: "CSE", semester: "Fifth", cgpa: 8.82 },
+  { id: 1, name: "Aarav", branch: "CSE", semester: "Fifth", cgpa: 9.0 },
   { id: 2, name: "Vivaan", branch: "ISE", semester: "Fourth", cgpa: 9.12 },
   { id: 3, name: "Aditya", branch: "ECE", semester: "Third", cgpa: 7.95 },
   { id: 4, name: "Arjun", branch: "ME", semester: "Fifth", cgpa: 8.15 },
