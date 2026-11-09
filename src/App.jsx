@@ -1,11 +1,11 @@
 import './App.css'
-
-import Maincntaioner from "./mainContainer"
+import Register from './student/StudentRegester'
+//import Maincntaioner from "./mainContainer"
 function App(){
     return(
      <>
-         
-        <Maincntaioner/>
+         <Register/>
+        {/* <Maincntaioner/> */}
         </>
     )
 }

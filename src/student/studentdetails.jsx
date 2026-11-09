@@ -1,5 +1,5 @@
 import React from "react"
-import initialstudents from "../student.js"
+import initialstudents from "../../student.js"
 import Studentcard from "./studentCards.jsx"
 export default function Studentdet(){
     const [student,setsStudent] = React.useState(initialstudents)

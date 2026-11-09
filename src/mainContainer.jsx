@@ -2,7 +2,7 @@
 // import students from "../student"
 //import Counter from "./counter"
 //import Studentdashboard from "./StudentDashboard"
-import Studentdet from "./studentdetails"
+import Studentdet from "./student/studentdetails"
 
 export default function Maincntaioner(){
     return(
