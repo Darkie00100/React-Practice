@@ -5,8 +5,7 @@
     gap: 15px;
 } */
 
-/* .abcd{
-
+ .abcd{
 display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -18,7 +17,8 @@ display: flex;
     border-radius: 6px;
     padding-left: 5px;
     font-size: medium;
-} */
+    display: flex;
+} 
  .form-det
  {
     display: flex;
@@ -31,7 +31,8 @@ display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 15px;
+ }
+ .std{
+    display: flex;
     
-   
-   
  }

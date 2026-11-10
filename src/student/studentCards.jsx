@@ -15,8 +15,8 @@ export default function Studentcard(std){
                 <p>cgpa:{std.cgpa}</p>
                 {std.cgpa>=9.0?grade():""}
                 <p>Followers: {std.followers}</p>
-               {std.followers>=0&&<button onClick={()=>std.onFollow(std.id)}>Follow</button>}
-                {std.followers>0&&<button onClick={()=>std.onUnFollow(std.id)}>UnFollow</button>}
+               {/* {std.followers>=0&&<button onClick={()=>std.onFollow(std.id)}>Follow</button>}
+                {std.followers>0&&<button onClick={()=>std.onUnFollow(std.id)}>UnFollow</button>} */}
             </div>
                             
         </div>

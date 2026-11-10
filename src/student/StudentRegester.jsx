@@ -1,5 +1,5 @@
-import {useState} from "react";
-
+import {useState} from "react"
+//import students from "./student"
 export default function Register(){
     const [student,settStudent] = useState([])
     const[formdata,setformdat] = useState({
@@ -22,6 +22,7 @@ export default function Register(){
         settStudent(prev=>(
             [...prev,formdata]
         ))
+
         setformdat({
          name :"",
         email:"",

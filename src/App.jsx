@@ -1,10 +1,12 @@
 import './App.css'
-import Register from './student/StudentRegester'
+import Management from './student/studentmamagement'
+//import Register from './student/StudentRegester'
 //import Maincntaioner from "./mainContainer"
 function App(){
     return(
      <>
-         <Register/>
+     <Management/>
+         {/* <Register/> */}
         {/* <Maincntaioner/> */}
         </>
     )
