@@ -2,12 +2,14 @@ import './App.css'
 //import Management from './student/studentmamagement'
 //import Register from './student/StudentRegester'
 //import Maincntaioner from "./mainContainer"
-import Derived from './student/std.derived'
+//import Derived from './student/std.derived'
+import Pagenate from './student/pagenate'
 
 function App(){
     return(
      <>
-     <Derived/>
+     <Pagenate/>
+     {/* <Derived/> */}
       {/* <Management/> */}
          {/* <Register/> */}
         {/* <Maincntaioner/> */}

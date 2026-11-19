@@ -1,10 +1,37 @@
-/* .card{
+ .card{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 15px;
-} */
+} 
+.page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}
+.stdpagenate{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-right: 5px;
+    gap: 15px;
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
 
+}
  .abcd{
 display: flex;
     flex-direction: row;
